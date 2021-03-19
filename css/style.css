@@ -77,13 +77,7 @@ button {
 .site-nav li {
   /* margin-left: 50px; */
 }
-.site.nav::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 5px;
-  background-color:var(--blue-color);
-} 
+
 /* .link {
   position: relative;
   font-weight: 500;
@@ -148,7 +142,7 @@ button {
   width: 100%;
   height: 4px;
   display: block;
-  background-color: red;
+  background-color: var(--blue-color);
   border-radius: 2px;
   opacity: 1;
   /* position: absolute; */
@@ -985,8 +979,6 @@ opacity: 1;
     text-align: center;
     color: #FFFFFF;
   } 
-  .header-link .link .current::after {
-    
-
+  .header-link .link .current:af {
 
   }
